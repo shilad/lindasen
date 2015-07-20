@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Linda Sen Fineart</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Raleway font -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300,600' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Hind:400,500' rel='stylesheet' type='text/css'>
+    <link href="lightbox/css/lightbox.css" rel="stylesheet">
+
+    <link href='lsfa.css' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img style="-webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #222);" 
+                alt="Brand" src="lsfa_logo.png">
+          </a>
+          <!-- <a class="navbar-brand" href="#">Linda Sen Fine Art</a> -->
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#featured">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#finishes">FINISHES</a></li>
+            <li><a href="#murals">MURALS</a></li>
+            <li><a href="#paintings">PAINTINGS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <div class="section" id="featured">
+      <div class="container">
+        <div class="row">
+          <h1 class="text-center black-stroke">Linda Sen Fine Art</h1>
+          <p class="text-center tagline">Custom interior finishes, murals, and paintings.</p>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="about">
+      <div class="container">
+        <div class="row">
+          <a class="anchor" name="about"></a> 
+          <h2 class="col-xs-12 text-center black-stroke">About</h2>
+  <p class="col-xs-12">Linda Sen grew up on a large farm on the great plains of North Dakota. Eleventh in a family of 13 children, she did her undergraduate work at University of North Dakota and earned a Masters Degree in Fine Arts at the School of the Art Institute of Chicago. In 1970, she married Siddhartha Sen from Calcutta and two years later moved to Woodridge, IL where she still resides.</p>
+
+  <p class="col-xs-12">Linda and her husband raised 3 fine boys: Shilad, Shourin and Sunil. In 1997, her husband and best friend died. He had always encouraged her to pursue her artwork and built a studio for her in their home.</p>
+
+  <p class="col-xs-12">Linda continued her artwork while rasing her family, and in 1988 she started a commercial art business specializing in murals and specialty faux finishes including gold leafing and Venetian plaster. During this time, she has continued her personal art journey with pastels, watercolor and oil mediums. Linda's artwork uses layered techniques, with a strong sense of color and design.</p>
+        </div>
+      </div>
+    </div>
+
+    <script id="art-template" type="text/x-handlebars-template">
+        <a class="art-lightbox" href="images/big/{{bigImg}}" data-lightbox="lb_{{id}}" data-title="{{name}} {{#if media}} - {{media}} {{/if}} {{#if dimensions}} ({{dimensions}}){{/if}}">
+          <div class="piece col-xs-6 col-md-4 col-lg-3" id="{{id}}">
+            <img class="center-block" src="images/med/{{medImg}}"/>
+            <h4 class="text-center text-overflow">{{name}}</h4>
+          </div>
+        </a>
+    </script>
+
+    <div class="section" id="finishes">
+      <div class="container">
+        <a  class="anchor" name="finishes"></a> 
+        <div class="row">
+          <h2 class="col-xs-12 text-center">Custom Interior Finishes</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="murals">
+      <div class="container">
+        <a  class="anchor" name="murals"></a> 
+        <div class="row">
+          <h2 class="col-xs-12 text-center">Murals</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="paintings">
+      <div class="container">
+        <a  class="anchor" name="paintings"></a> 
+        <div class="row">
+          <h2 class="col-xs-12 text-center">Paintings</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="contact">
+      <div class="container">
+        <div class="row">
+          <a  class="anchor" name="contact"></a> 
+          <h2 class="col-xs-12 text-center">Contact</h2>
+          <p class="text-center">
+            Linda Sen<br/>
+            lindasen_fineart@hotmail.com<br/>
+            630-269-9409<br/>
+          <p>
+        </div>
+      </div>
+    </div>
+
+    <img id="scrollArrow" src="ScrollDown.png"/>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) and Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.min.js"></script>
+    <script src="lightbox/js/lightbox.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="lsfa_data.js"></script>
+    <script src="lsfa.js"></script>
+
+  </body>
+</html>
+
+
+
